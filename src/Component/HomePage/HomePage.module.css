@@ -1,0 +1,9 @@
+.homePageDiv {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three columns */
+    grid-gap: 10px;
+}
+
+.mainSecDiv {
+    padding: 1rem 2rem;
+}

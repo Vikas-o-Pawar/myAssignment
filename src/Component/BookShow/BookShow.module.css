@@ -1,0 +1,45 @@
+.mainMovieCardSec {
+  display: inline-block;
+  font-family: Gotham, sans-serif;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin: 0rem 0rem;
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(144,144,150,1) 100%, rgba(0,212,255,1) 100%);
+  color: white;
+  padding: 2rem 5rem;
+}
+
+.movieCardDetails {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+
+input {
+  padding: 0.7rem 1rem;
+  border-radius: 5px;
+  border: 1px solid gray;
+  margin: 0.8rem 1rem;
+}
+
+.card-mainDiv {
+  display: flex;
+
+}
+
+.formSection {
+  display: flex;
+  margin-bottom: 1rem;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.formSection button {
+    margin: 0rem 12rem;
+    cursor: pointer;
+}

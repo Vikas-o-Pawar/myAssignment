@@ -1,0 +1,148 @@
+.mainNavSection {
+  /* border: 2px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 78px;
+  background-color: gainsboro;
+  
+}
+
+.mainNavSection > span {
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-right: -60px;
+}
+
+.navItemSection {
+  /* border: 2px solid saddlebrown; */
+  display: flex;
+}
+
+.navItemSection2 {
+  /* border: 2px solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 22rem;
+  margin-left: -61px;
+}
+
+.navItemsList {
+  display: flex;
+  width: 49rem;
+  justify-content: space-between;
+  height: 64px;
+}
+
+.loginNavBtn {
+  margin-right: 10px;
+  background: white;
+  border: none;
+  font-weight: bold;
+}
+
+.navBatch {
+  border: 2px solid black;
+  cursor: pointer;
+  width: 34px;
+  height: 32px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.navInnerBatch {
+  border: 2px solid black;
+  display: inline-block;
+  margin: 1px 1px;
+  width: 28px;
+  height: 26px;
+  border-radius: 50%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 19px;
+}
+
+@media (max-width: 768px) {
+  .mainNavSection .navItemSection {
+    display: none;
+  }
+
+  .mainNavSection .navItemSection2 .searchDiv {
+    display: none;
+  }
+
+  .mainNavSection .navBatch {
+    display: none;
+  }
+
+  .mainNavSection .navItemSection2 .loginNavBtn {
+    display: none;
+  }
+
+  .mainNavSection {
+    display: flex;
+    align-items: center;
+    width: 1271px;
+    height: 107px;
+    overflow-x: hidden;
+  }
+}
+
+@media (max-width: 425px) {
+  .mainNavSection {
+    height: 200px;
+    width: 317vw;
+    justify-content: space-between;
+    /* border: 2px solid; */
+    padding-left: 9rem;
+  }
+
+  .mainNavSection > span {
+    font-size: 4.5rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .mainNavSection {
+    display: flex;
+    align-items: center;
+    width: 1271px;
+    height: 207px;
+    overflow-x: hidden;
+    justify-content: space-between;
+    padding-left: 4rem;
+  }
+
+  .mainNavSection .mainNavSpan {
+    font-size: 5rem;
+  }
+
+  .mainNavSection .navItemSection {
+    display: none;
+  }
+
+  .mainNavSection .navItemSection2 .searchDiv {
+    display: none;
+  }
+
+  .mainNavSection .navBatch {
+    display: none;
+  }
+
+  .mainNavSection .navItemSection2 .loginNavBtn {
+    display: none;
+  }
+}
+
+/* Cart
+    background-image: url(http://localhost:3000/static/media/cart.IMG.72877f3….svg);
+    background-position: center;
+    width: 99px;
+    height: 88px;
+    background-repeat: no-repeat;
+    background-color: #fdd144;
+    border: none;
+    background-size: 51px;
+    border-radius: 64px;
+     */

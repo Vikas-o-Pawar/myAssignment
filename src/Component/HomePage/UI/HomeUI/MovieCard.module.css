@@ -1,0 +1,27 @@
+.mainMovieCardSec {
+    width: 25vw;
+    display: inline-block;
+    font-family: Gotham, sans-serif;
+    text-align: center;
+    padding: 3rem 0rem;
+    display: flex;
+    justify-content: center;
+    margin: 0rem 0rem;
+    border: 2px solid gainsboro;
+  }
+  
+  .card-mainDiv {
+    max-width: 21vw;
+  }
+
+  .movieCardDetails {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 2rem;
+  }
+  
+  
+  
+  
